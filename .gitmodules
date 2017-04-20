@@ -7,3 +7,6 @@
 [submodule "apps/myApps/DepthTracker"]
 	path = apps/myApps/DepthTracker
 	url = https://github.com/katotetsuro/DepthTracker.git
+[submodule "cereal"]
+	path = cereal
+	url = https://github.com/USCiLab/cereal.git
