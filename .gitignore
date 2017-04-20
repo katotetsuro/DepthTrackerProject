@@ -106,4 +106,30 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-seal.jpg
+# oF
+CHANGELOG.md
+CODE_OF_CONDUCT.md
+INSTALL.md
+LICENSE.md
+README.md
+addons/ofxAssimpModelLoader
+addons/ofxEmscripten
+addons/ofxGui
+addons/ofxKinect
+addons/ofxNetwork
+addons/ofxOpenCv
+addons/ofxOsc
+addons/ofxSvg
+addons/ofxThreadedImageLoader
+addons/ofxVectorGraphics
+addons/ofxXmlSettings
+apps/myApps/emptyExample
+docs
+examples
+export
+libs
+other
+projectGenerator-osx
+scripts
+of.zip
+

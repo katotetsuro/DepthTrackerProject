@@ -9,7 +9,7 @@ def download():
 
 def extract():
     subprocess.call(['unzip', 'of.zip'])
-    subprocess.call(['cp', '-p', 'of_v0.9.8_osx_release/*', '.'])
+    subprocess.call(['cp', '-r', 'of_v0.9.8_osx_release/*', '.'])
     subprocess.call(['rm', '-rf', 'of_v0.9.8_osx_release'])
 
 
