@@ -1,4 +1,4 @@
-language: cpp
+language: objective-c 
 osx_image: xcode8
 xcode_project: apps/myApps/DepthTracker/DepthTracker.xcodeproj 
 xcode_scheme: test
