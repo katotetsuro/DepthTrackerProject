@@ -1,5 +1,7 @@
-language: c++
+language: cpp
 osx_image: xcode8
+xcode_project: apps/myApps/DepthTracker/DepthTracker.xcodeproj 
+xcode_scheme: test
 env:
   global:
     - LC_CTYPE=en_US.UTF-8
@@ -12,7 +14,5 @@ cache:
 
 before_install:
   - git submodule update --init --recursive
-script:
-  - xcodebuild -project apps/myApps/DepthTracker/DepthTracker.xcodeproj -scheme test 
 notifications:
   email: false
