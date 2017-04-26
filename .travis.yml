@@ -10,7 +10,6 @@ branches:
     - master
 cache:
   directories:
-    - of.zip
 
 before_install:
   - git submodule update --init --recursive
