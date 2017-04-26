@@ -9,7 +9,9 @@ def download():
 
 def extract():
     subprocess.call(['unzip', 'of.zip'])
-    subprocess.call(['cp', '-r', 'of_v0.9.8_osx_release/*', '.'], shell=True)
+    subprocess.call(['cp', '-R', 'of_v0.9.8_osx_release/addons', '.'])
+    subprocess.call(['cp', '-R', 'of_v0.9.8_osx_release/libs', '.'])
+    subprocess.call(['cp', '-R', 'of_v0.9.8_osx_release/projectGenerator-osx', '.'])
     subprocess.call(['rm', '-rf', 'of_v0.9.8_osx_release'])
 
 
