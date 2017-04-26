@@ -12,6 +12,7 @@ def extract():
     subprocess.call(['cp', '-R', 'of_v0.9.8_osx_release/addons', '.'])
     subprocess.call(['cp', '-R', 'of_v0.9.8_osx_release/libs', '.'])
     subprocess.call(['cp', '-R', 'of_v0.9.8_osx_release/projectGenerator-osx', '.'])
+    subprocess.call(['cp', 'of_v0.9.8_osx_release/LICENSE.md', '.'])
     subprocess.call(['rm', '-rf', 'of_v0.9.8_osx_release'])
 
 
